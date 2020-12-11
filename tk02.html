@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiết kế web A</title>
+    <link rel="stylesheet" href="tk02.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body onload="realtimeClock()">
+    <div class="container">
+        <div class="poss-father">
+            <div class="images-header">
+                
+            </div>
+            <div class="poss-header">
+                <div class="content-header">
+                    <div class="images-nav">
+                        <img  src="./pic/logov.png" alt="">
+                    </div>
+                    <div class="ul-nav">
+                            <ul class="ul-list">
+                                <li class="li-items"><i class="fas fa-map"><a href = "#willyougo" style="text-decoration: none;margin-left: 8px;color: #fff">Place to go</a></i></li>
+                                <!-- <li class="li-items">place to go</li> -->
+                                <li class="li-items"><i class="fas fa-bus"><a href = "#choose" style="text-decoration: none;margin-left: 8px;color: #fff">Things to do</a></i></li>
+                                <!-- <li class="li-items">things to do</li> -->
+                                <li class="li-items"><i class="fas fa-images" ><a href = "#galleyry" style="text-decoration: none;margin-left: 8px;color: #fff">Galleyry</a></i></li>
+                                <!-- <li class="li-items">galleyry</li> -->
+                            </ul>
+                    </div>
+                    <div class="search-nav" style="margin-right: 10px;">
+                        <input type="text" placeholder="Search">
+                        <div class="search-p--nav" >Search</div>
+                    </div>
+                    <div class="navigation" style="margin-right: 10px;height: 100px;justify-content: flex-end;align-items: center;">
+                        <i id = "bars"class="fas fa-bars fa-2x" style="color: #fff;"></i>
+                    </div>
+                    <div class="nav-items">
+                        <i style = "color: #fff" class="fas fa-map"><a href = "#willyougo" style="text-decoration: none;margin-left: 8px;color: #fff">Place to go</a></i>
+                        <i style = "color: #fff" class="fas fa-bus"><a href = "#choose" style="text-decoration: none;margin-left: 8px;color: #fff">Things to do</a></i>
+                        <i style = "color: #fff" class="fas fa-images" ><a href = "#galleyry" style="text-decoration: none;margin-left: 8px;color: #fff">Galleyry</a></i>
+                        <div class="search-nav-items">
+                            <input type="text" placeholder="Search">
+                            <button>Search</button>
+                        </div>
+                    </div>
+                            
+        
+                </div>
+                
+            </div>
+           
+            <div class="content-main" id = "willyougo">
+                <div class="content-main--head">
+                    <h2 class="content-main--h">WILL YOU GO</h2>
+                    <h3 class="content-main--h">Discover the highlights of travelling Vietnam and find ideas for your holidays</h3>
+                </div>
+                <div class="content-body--a">
+                    <div class="content-body--img content-body--img---a ">
+                        <img class="imagesa-content--body" src="pic/th06hn.jpg"   width="100%"  alt="">
+                        <div class="poss-content--main">Hà Nội</div>
+                    </div>
+                    <div class="content-body--p">
+                        <p>
+                            Founded over 1000 years ago, Vietnam’s capital city is rich in history, 
+                            with the streets of its rambling Old Quarter dating back to the 14th century. 
+                            Wandering these tree-lined lanes past crumbling colonial facades will transport 
+                            you back in time. However, today's Hanoi is about much more than the past. 
+                            The ancient city is being invigorated with modern cafes, world-class restaurants, 
+                            and cool art galleries. When the sun goes down, you have your pick of watering holes, 
+                            from sophisticated rooftop bars to buzzing bia hoi.
+                        </p>
+                    </div>
+                </div>
+                <div class="br-row"></div>
+                <div class="content-body--b">
+                    <div class="content-body--p---b">
+                        <p>
+                            With broad beaches, fantastic street food, the fabled Hai Van Pass, and a growing 
+                            collection of cafes, restaurants, and bars, it’s no wonder the residents of Da Nang 
+                            sport some of the broadest smiles in the country. Da Nang is a true beach city. 
+                            The warm sands of My Khe Beach sweep south from the mountainous Son Tra Peninsula. 
+                            Da Nang hosts some of Vietnam's top luxury resorts, but much of the beach still belongs 
+                            to the people who make it their playground, gym, and source of livelihood.
+                        </p>
+                    </div>
+                    <div class="content-body--img---b ">
+                        <img class="imagesb-content--body" src="pic/th06.jpg" width="100%" alt="">
+                        <div class="poss-content--main---b">Đà Nẵng</div>
+                    </div>
+
+
+                </div>
+                <div class="br-row"></div>
+
+                <div class="content-body--c">
+                    <div class="content-body--img content-body--img---c ">
+                        <img class="imagesc-content--body" src="pic/btm.jpg" height="270px" width="100%" alt="">
+                        <div class="poss-content--main---c">TP.Hồ Chí Minh</div>
+                    </div>
+                    <div class="content-body--p---c">
+                        <p>
+                            Ho Chi Minh (SaiGon) is the business and financial hub of Vietnam, with a prominent 
+                            history going back hundreds of years. The Khmers originally settled the region, with 
+                            the Vietnamese taking over in the 17th century. The French conquered Saigon, as it 
+                            was then known, in 1859, and made it the capital. Today, A freewheeling, cosmopolitan 
+                            metropolis, HCMC's dynamic cityscape draws together old and new Vietnam in the most 
+                            compact of spaces, representing the city’s past as well as its future.
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="br-row"></div>
+                
+            </div>
+            
+        
+
+        </div>
+
+        <div class="choose" id = "choose">
+            <div class="choose1">Choose</div>
+            <div class="row-choose">
+            
+                <div class="foodsu">Food</div>
+                <div class="citysu">City</div>
+                <div class="beachsu">Beach</div>
+                <div class="naturesu">Nature</div>
+              </div>
+        </div>
+
+        <div class="big-content">
+            <div class="content-a css-img">
+                <div class="img-content">
+                    <img src="./pic/rice.jpg" alt="">
+                    <div class="alpha">5 VIETNAMESE RECIPES TO TRY AT HOME</div>
+                </div>
+            </div>
+            <div class="content-b css-img">
+                <div class="img-content">
+                    <img src="./pic/picm3.jpg" alt="">
+                    <div class="alpha">7 SUPER BANH MI TO TRY IN VIET NAM</div>
+                </div>
+            </div>
+            <div class="content-c css-img">
+                <div class="img-content">
+                    <img src="pic/foods.jpg" alt="">
+                    <div class="alpha">EATING LIKE A LOCAL IN HO CHI MINH CITY</div>
+                </div>
+            </div>
+        </div>
+        <div class="galleyry" id = "galleyry">
+            <div class="p-gallery">
+                <p style="font-family: Comic Sans MS; font-size: 28px;" id="hyperd">GALLERY</p>
+              </div>
+              <div class="img-galleyry">
+                  <div class="img-galleyry-items-a">
+                      <img src="./pic/gal6.jpg" alt="">
+                  </div>
+                  <div class="img-galleyry-items-a">
+                    <img src="./pic/gal9.jpg" alt="">
+                </div>
+                <div class="img-galleyry-items-a">
+                    <img src="./pic/gal10.jpg" alt="">
+                </div>
+              </div>
+              <div class="img-galleyry">
+                <div class="img-galleyry-items-b">
+                    <img src="./pic/Can Tho Mekong Delta.jpg" alt="">
+                </div>
+                <div class="img-galleyry-items-b">
+                  <img src="./pic/Greg Norman in Old Quarter.jpg" alt="">
+              </div>
+            </div>
+            <div class="img-galleyry">
+                <div class="img-galleyry-items-c">
+                    <img src="./pic/Things to do in Cai Be in the Mekong Delta-6.jpg" alt="">
+                </div>
+                <div class="img-galleyry-items-c">
+                  <img src="./pic/Best getaways for couples vietnam travel-3.jpg" alt="">
+              </div>
+              <div class="img-galleyry-items-c">
+                  <img src="./pic/bun bo Hue recipe_0.jpg" alt="">
+              </div>
+            </div>
+        </div>
+        <div class="main-time" >
+            <h1 class="main-time--h1">VIETNAMESE TIME O'CLOCK</h1>
+            <div id="oclock"></div>
+        </div>
+        <div class="footer">
+            <div class="footer-left">
+                <h4>SIGN UP FOR OUR NEWSLETTER</h4>
+                <span>Receive new travel stories from Vietnam once a month in your inbox.</span>
+                <input type="text" name="" id="">
+                <button>Sign Up</button>
+            </div>
+            <div class="footer-mid">
+                <h4>USEFUL LINKS</h4>
+                <span>Stay at Home Kit</span>
+                <span>Visas for Vietnam</span>
+                <span>Beginner Guide</span>
+                <span>FAQs</span>
+                <span>Sitemap</span>
+                <span>News & Media</span>
+                <span>Industry Resources</span>
+            </div>
+            <div class="footer-right">
+                <h4>FOLLOW US ON</h4>
+                <div class="icon-footer">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                    <i class="fab fa-youtube fa-2x"></i>
+                    <i class="fab fa-instagram fa-2x"></i>
+                </div>
+                <span>Welcome to the official website of Vietnam National Administration of Tourism. Visit our social media pages for more travel inspiration.</span>
+            </div>
+        </div>
+    </div>
+    <script src="tk02.js"></script>
+</body>
+</html>
