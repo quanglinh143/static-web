@@ -445,7 +445,7 @@
 .icon-footer i {
     color: #fff;
     margin: 0 10px;
-
+    cursor: pointer;
 }
 
 /* responsive css */
