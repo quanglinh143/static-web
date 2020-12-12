@@ -3,7 +3,9 @@ Bài thực hành của em để trong div lớn là container
 1)phần thanh nav có class là: poss-father:
   +)trong nav có: logo, 3 tiêu đề mục con, 1 thanh input search
   +)về CSS cho phần này: em có sử dụng icon bởi fontawsome cho trang web. Sử dụng display:flex; để dàn iteams. Bên cạnh đó em có responsive với max-width: 950px thanh nav sẽ thu     nhỏ với 3 thanh xược ngang, người dùng sẽ click vào đó để hiện thị thanh nav theo columns.
+  
  2)content-main--head: em để thẻ h2 và h3: CSS sử dụng display: flex; justify-content: center;
+ 
  3)Tiếp đến là content-main
   +)em chia tỉ lệ (ảnh/nội dung bài viết) =1/2;
   +)thẻ div content-body--img em để position:relative; và poss-content--main có position: absolute; Với mục đích: khi hover vào bức ảnh, tiêu đề chú thích sẽ chạy ngang             transition:0.3s;
