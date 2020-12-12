@@ -26,10 +26,10 @@ Bài thực hành của em để trong div lớn là container
   
   7) Cuối cùng là footer:
   
-  footer-left: là nội dung và thẻ input
+  +)footer-left: là nội dung và thẻ input
   
-  footer-mid: là nội dung của thông điệp và ghi chú
+  +)footer-mid: là nội dung của thông điệp và ghi chú
   
-  footer-right: là lời chào mừng với quảng bá qua nền tảng mạng xã hội
+  +)footer-right: là lời chào mừng với quảng bá qua nền tảng mạng xã hội
   
   
